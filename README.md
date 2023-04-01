@@ -1,6 +1,6 @@
 ## My portfolio
 
-![portfolio!](src/portfolio.gif)
+![portfolio!](src/portifolio.gif)
 
 
 ### This project
