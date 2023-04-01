@@ -22,8 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import costs from "./costs.png";
+import repoWars from "./repoWars.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -52,9 +52,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  costs,
+  repoWars,
   meta,
-  shopify,
-  starbucks,
   tesla,
   carrent,
   jobit,
