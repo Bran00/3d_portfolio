@@ -35,23 +35,27 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview</h2>
-    </motion.div>
+      <motion.div variants={textVariant()} id="about">
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
+      </motion.div>
 
-    <motion.p 
-    variants={fadeIn("", "", 0.1, 1)}
-    className="mt-4 text-secondary text-[17px] max-w3xl leading-[30px]"
-    >
-      Have skilled software with experience in JavaScript and expertise in React Library with support fro NodeJS and NextJS. I'm a quick leaner and collaborate closely with companies to create efficient, scalable and user-friendly solutions that solve real-world problems. Let's work together?
-    </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w3xl leading-[30px]"
+      >
+        Have skilled software with experience in JavaScript and expertise in
+        React Library with support fro NodeJS and NextJS. I'm a quick leaner and
+        collaborate closely with companies to create efficient, scalable and
+        user-friendly solutions that solve real-world problems. Let's work
+        together?
+      </motion.p>
 
-    <div className="mt-20 flex flex-wrap gap-10">
-      {services.map((service, index) => (
-        <ServiceCard key={service.title} index={index} {...service} />
-      ))}
-    </div>
+      <div className="mt-20 flex flex-wrap gap-10">
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
     </>
   )
 }
