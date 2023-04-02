@@ -113,7 +113,7 @@ const testimonials = [
     designation: "Front End Developer",
     company: "Bohr.io",
     image:
-      "https://media.licdn.com/dms/image/D4E03AQGWNATaRSRKSg/profile-displayphoto-shrink_200_200/0/1670541675033?e=1686182400&v=beta&t=ueZ_r1oNnPEtus8hIiaTCuc_wfWb2rpQ-nMpXNjGadk",
+      "../src/guswillemann.png",
   },
 ]
 
