@@ -30,7 +30,7 @@ const Navbar = () => {
             <span className="sm:block hidden"> | Front-End Developer </span>
           </p>
         </Link>
-        <ul className="list-none  hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -41,7 +41,7 @@ const Navbar = () => {
                 `}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <p>{link.title}</p>
             </li>
           ))}
         </ul>
@@ -68,12 +68,11 @@ const Navbar = () => {
                 } font-poppins font-medium cursor-pointer text-[16px]
                 `}
                   onClick={() => {
-                    setToggle(!toggle);
-                    setActive(link.title);
-                  }
-                  }
+                    setToggle(!toggle)
+                    setActive(link.title)
+                  }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <p>{link.title}</p>
                 </li>
               ))}
             </ul>
