@@ -9,7 +9,6 @@ const Navbar = () => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  console.log(active)
 
   useEffect(() => {
     const handleScroll = () => {
