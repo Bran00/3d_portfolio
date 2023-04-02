@@ -34,7 +34,7 @@ const services = [
   {
     title: "Front End Developer",
     icon: web,
-  }
+  },
 ]
 
 const technologies = [
@@ -77,7 +77,7 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  }
+  },
 ]
 
 const experiences = [
@@ -94,7 +94,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  
 ]
 
 const testimonials = [
@@ -106,6 +105,15 @@ const testimonials = [
     company: "Hostfully",
     image:
       "https://media.licdn.com/dms/image/D4D03AQHJGNxuMCLTPg/profile-displayphoto-shrink_200_200/0/1674062637924?e=1685577600&v=beta&t=4VRftxdWhPMjpFvyqrDMEAdriVQQqyNOKVwcX7wPmx8",
+  },
+  {
+    testimonial:
+      "As a person, Brando is dedicated to learning and improving his skills. As a developer he ensures the quality of his work, with attention to details.",
+    name: "Gustavo Willemann",
+    designation: "Front End Developer",
+    company: "Bohr.io",
+    image:
+      "https://media.licdn.com/dms/image/D4E03AQGWNATaRSRKSg/profile-displayphoto-shrink_200_200/0/1670541675033?e=1686182400&v=beta&t=ueZ_r1oNnPEtus8hIiaTCuc_wfWb2rpQ-nMpXNjGadk",
   },
 ]
 
