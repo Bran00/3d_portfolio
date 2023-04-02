@@ -112,8 +112,7 @@ const testimonials = [
     name: "Gustavo Willemann",
     designation: "Front End Developer",
     company: "Bohr.io",
-    image:
-      "../src/guswillemann.png",
+    image: "https://avatars.githubusercontent.com/u/78227014?v=4",
   },
 ]
 
