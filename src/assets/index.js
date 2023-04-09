@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import costs from "./costs.png";
 import repoWars from "./repoWars.png";
+import pokenext from "./pokenext.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -54,6 +55,7 @@ export {
   threejs,
   costs,
   repoWars,
+  pokenext,
   meta,
   tesla,
   carrent,
