@@ -11,6 +11,7 @@ import {
   git,
   figma,
   repoWars,
+  pokenext,
   costs,
   threejs,
 } from "../assets"
@@ -151,6 +152,23 @@ const projects = [
     image: costs,
     source_code_link: "https://github.com/Bran00/costs",
   },
+  {
+    name: "PokeNext",
+    description:
+      "Ap project in next to improve my habilities in NextJS. Using api from pokeAPI to build this prpject to you know more about pokemons!",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+       {
+        name: "next",
+        color: "green-text-gradient",
+      },
+    ],
+    image: pokenext,
+    source_code_link: "https://github.com/Bran00/pokenext",
+  },  
 ]
 
 export { services, technologies, experiences, testimonials, projects }
