@@ -10,8 +10,8 @@ import {
   nodejs,
   git,
   figma,
+  metaverse,
   repoWars,
-  pokenext,
   costs,
   threejs,
 } from "../assets"
@@ -119,6 +119,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Metaverse NextJS",
+    description:
+      "A future site build with support of NextJS for a better experience to client",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "next",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: metaverse,
+    source_code_link: "https://github.com/Bran00/MetaVerse",
+  },
+  {
     name: "Repo Wars",
     description:
       "A game from quantity of stars of several developers and users from Github to avaliate your knowledges of repositories in GitHub.",
@@ -152,23 +173,7 @@ const projects = [
     image: costs,
     source_code_link: "https://github.com/Bran00/costs",
   },
-  {
-    name: "PokeNext",
-    description:
-      "Ap project in next to improve my habilities in NextJS. Using api from pokeAPI to build this prpject to you know more about pokemons!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-       {
-        name: "next",
-        color: "green-text-gradient",
-      },
-    ],
-    image: pokenext,
-    source_code_link: "https://github.com/Bran00/pokenext",
-  },  
+  
 ]
 
 export { services, technologies, experiences, testimonials, projects }
