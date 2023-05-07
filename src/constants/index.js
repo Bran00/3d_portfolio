@@ -158,7 +158,7 @@ const projects = [
       },
     ],
     image: repoWars,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bran00/repo-wars-bran",
   },
   {
     name: "Costs",
@@ -173,7 +173,6 @@ const projects = [
     image: costs,
     source_code_link: "https://github.com/Bran00/costs",
   },
-  
 ]
 
 export { services, technologies, experiences, testimonials, projects }
