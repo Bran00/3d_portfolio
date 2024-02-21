@@ -33,7 +33,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Front End Developer",
+    title: "FullStack Developer",
     icon: web,
   },
 ]
@@ -83,16 +83,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front End Developer",
-    company_name: "Freelance",
+    title: "FullStack Developer",
+    company_name: "Forja",
     icon: web,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained high-performance web and mobile applications using React.",
+      "Implemented scalable servers and APIs in Node.js, focusing on efficiency and security.",
+      "Designed custom Golang and Node solutions for complex backend issues.",
+      " Collaborated within agile teams, following continuous development and delivery practices using Scrum and Kanban.",
     ],
   },
 ]
@@ -100,7 +100,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "As a front-end developer, Brando is an exceptional professional with a sharp eye for detail and a deep understanding of user experience. He consistently delivers high-quality work that is both aesthetically pleasing and functional.",
+      "As a FullStack Developer, Brando is an exceptional professional with a sharp eye for detail and a deep understanding of user experience. He consistently delivers high-quality work that is both aesthetically pleasing and functional.",
     name: "Walison Teodoro",
     designation: "Front End Developer",
     company: "Hostfully",
